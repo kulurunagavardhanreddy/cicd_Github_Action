@@ -10,7 +10,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import confusion_matrix, precision_score, f1_score, recall_score
 sns.set(style='white')
 
-# Load Data
+# Load Data 
 dataset = pd.read_csv(riris.csv)
 
 # Feature names (Ensure no extra spaces or parentheses)
